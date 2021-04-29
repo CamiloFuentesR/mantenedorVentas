@@ -18,7 +18,9 @@ export const NavBar = () => {
                             className="text-white col-10 "
                             onClick={handleClickLogin}
                         >Camilo</span>
-                        <Link className={'col-1 '}>
+                        <Link 
+                            to={'/auth/home'}
+                            className={'col-1 '}>
                          <SystemUpdateAltIcon
                             style={{color: 'white', fontSize: '31px'}}
                         />

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { useSelector } from 'react-redux'
 import {BrowserRouter as Router,Redirect,Switch} from 'react-router-dom'
 import { Adentro } from '../components/Adentro'
 import { AuthRouter } from './AuthRouter'
@@ -11,7 +10,7 @@ import { PublicRouter } from './PublicRouter'
 export const AppRouter = (store) => {
 
     // const state = useSelector(state => state.state)
-    const [login, setLogin] = useState(false)
+    const [login] = useState(false)
 
 
     return (
