@@ -13,17 +13,17 @@ export const NavBar = () => {
         <>
             <div className="container col-12 sticky-top">
                 <div className="row">
-                    <nav className="navbar bg-dark sticky-top col-12">
+                    <nav className="_home_nav  navbar bg-dark sticky-top col-12">
                         <span
-                            className="text-white col-10 "
+                            className="_home_span_name text-white col-10 "
                             onClick={handleClickLogin}
                         >Camilo</span>
-                        <Link 
+                        <Link
                             to={'/auth/home'}
-                            className={'col-1 '}>
-                         <SystemUpdateAltIcon
-                            style={{color: 'white', fontSize: '31px'}}
-                        />
+                            className={'col-1 _home_span1'}>
+                                <SystemUpdateAltIcon
+                                    style={{ color: 'white', fontSize: '27px' }}
+                                />
                         </Link>
                         <Link to={'/auth/login'}>
                             <span className="material-icons text-white btn col-1 ">login</span>

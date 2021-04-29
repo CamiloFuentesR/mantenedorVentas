@@ -1,9 +1,10 @@
 import React from 'react'
+import { NavBar } from '../ui/NavBar'
 
 export const RegisterScreen = () => {
     return (
         <div>
-            <h1>Register</h1>
+            <NavBar/>
         </div>
     )
 }

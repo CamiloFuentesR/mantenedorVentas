@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavBar } from '../ui/NavBar'
 
 export const LoginScreen = () => {
 
@@ -6,7 +7,7 @@ export const LoginScreen = () => {
 
     return (
         <div>
-            <h1>desde login</h1>
+            <NavBar/>
         </div>
     )
 }
