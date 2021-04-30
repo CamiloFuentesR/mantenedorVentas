@@ -1,7 +1,13 @@
 .login100-form-title{
     background-image: url('../../components/ui/img/login.jpg');
 }
-
+.limiter {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
 
 //parte interna del boton
 .login100-form-btn {
@@ -12,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 55px;
+    margin-left: 15px;
     min-width: 160px;
     height: 50px;
     border: 1px solid #0f110e;
@@ -62,9 +68,10 @@
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
+    margin-top: -15px;
+
     justify-content: center;
     align-items: center;
-    padding: 5px;
     background: #ebeeef;
   }
 
@@ -84,16 +91,17 @@
   @media(max-width: 576px){
     .container-login100 {
         width: 100%;  
-        min-height: 80vh;
+        max-height: 100vh;
         display: -webkit-box;
         display: -webkit-flex;
         display: -moz-box;
         display: -ms-flexbox;
         display: flex;
+        margin-top: -10px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 5px;
+        padding: 10px;
         background: #ebeeef;
       }
 
@@ -105,7 +113,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 25px;
+        margin-left: 35px;
         min-width: 160px;
         height: 50px;
         border: 1px solid #0f110e;
@@ -132,6 +140,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 43px 88px 93px 83px;
+        padding: 43px 70px 53px 53px;
       }
   }

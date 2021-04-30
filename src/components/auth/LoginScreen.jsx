@@ -17,7 +17,7 @@ export const LoginScreen = () => {
 			<div className="wrap-login100">
 				<div className="login100-form-title" style={{backgroundImage: login}} >
 					<span className="login100-form-title-1" >
-						Sign In
+						Inicio de Sesión
 					</span>
 				</div>
 

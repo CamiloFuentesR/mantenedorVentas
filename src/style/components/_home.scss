@@ -4,27 +4,48 @@
 @media (max-width: 576px) {
 
 /*          ----------------------                  NavBar        -----------------------------   */
-
     ._home_nav{
-        max-height: 9vh;
-
-        span{
-            font-size: 4vh;
-        }
-        
+        display: grid !important;
+        grid-template-columns: 2fr 2fr 2fr 1fr !important;
+        justify-items: center;
     }
+    .btn-login{
+        grid-column: 4;
+    }
+
     ._home_span{
         max-width: 40%;
     }
-    ._home_span1{
-        size: 1vh;
-        margin-bottom: 3px;
+    ._home_link_1{
+        size: 2vh;
+        margin-bottom: 5px;
     }
     ._home_span_name{
         font-size: 20px !important;
         max-width: 15vh;
-
     }
+    ._home_login_btn{
+        font-size: 30px !important;
+        margin-bottom: -10px;
+        
+    }
+
+    /* ---------------------dropdown button -------------------- */
+    .dropdown-menu {
+        background-color: rgba(44, 44, 40, 0.836);
+        margin-right: 75px;
+    }
+    .dropdown-item{
+        color: aliceblue;
+
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.507);
+        color: aliceblue;
+
+        }
+        
+    }
+
 
     /*                     ----------------         Header      -----------------                       */
 
@@ -56,7 +77,36 @@
  @media (min-width: 992px) { }
  
  // Extra large devices (large desktops, 1200px and up)
- @media (min-width: 1200px) {
+ @media (min-width: 1100px) {
+    ._home_nav{
+        display: grid !important;
+        grid-template-columns: 2fr 2fr 2fr 1fr !important;
+        justify-items: center;
+    }
+    .btn-login{
+        grid-column: 4;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(44, 44, 40, 0.836);
+        margin-right: 75px;
+    }
+    .dropdown-item{
+        color: aliceblue;
+
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.507);
+        color: aliceblue;
+
+        }
+        
+    }
+    .dropdown-item::focus{
+        color: rgba(255, 255, 255, 0.938);
+
+    }
+
+
     ._home_header{
         display: flex;
         height: 88vh !important;
