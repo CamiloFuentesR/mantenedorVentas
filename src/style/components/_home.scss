@@ -6,11 +6,11 @@
 /*          ----------------------                  NavBar        -----------------------------   */
     ._home_nav{
         display: grid !important;
-        grid-template-columns: 2fr 2fr 2fr 1fr !important;
+        grid-template-columns: 1fr 2fr 2fr 2fr 1fr !important;
         justify-items: center;
     }
     .btn-login{
-        grid-column: 4;
+        grid-column: 5;
     }
 
     ._home_span{
@@ -28,6 +28,9 @@
         font-size: 30px !important;
         margin-bottom: -10px;
         
+    }
+    ._auth_house_btn{
+        grid-column: 1;
     }
 
     /* ---------------------dropdown button -------------------- */
@@ -80,11 +83,11 @@
  @media (min-width: 1100px) {
     ._home_nav{
         display: grid !important;
-        grid-template-columns: 2fr 2fr 2fr 1fr !important;
+        grid-template-columns: 1fr 2fr 2fr 2fr 1fr !important;
         justify-items: center;
     }
     .btn-login{
-        grid-column: 4;
+        grid-column: 5;
     }
 
     .dropdown-menu {
