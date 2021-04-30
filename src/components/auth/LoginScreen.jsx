@@ -3,7 +3,10 @@ import { NavBar } from '../ui/NavBar'
 import login from '../ui/img/login.jpg';
 export const LoginScreen = () => {
 
-    console.log('que esta pasando')
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
 
     return (
         <div>
@@ -38,7 +41,12 @@ export const LoginScreen = () => {
 					</div>
 
 					<div className="container-login100-form-btn">
-						<button className="login100-form-btn ">
+						<button 
+                            type="submit"
+                            className="login100-form-btn "
+                            onClick={handleSubmit}
+                            >
+                            
 							Login
 						</button>
 					</div>

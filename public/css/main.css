@@ -209,18 +209,7 @@ iframe {
 /*==================================================================
 [ Form ]*/
 
-.login100-form {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 43px 88px 93px 190px;
-}
-
+    
 
 /*------------------------------------------------------------------
 [ Input ]*/

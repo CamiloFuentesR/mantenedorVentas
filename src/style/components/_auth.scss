@@ -2,6 +2,8 @@
     background-image: url('../../components/ui/img/login.jpg');
 }
 
+
+//parte interna del boton
 .login100-form-btn {
     display: -webkit-box;
     display: -webkit-flex;
@@ -10,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    margin-left: 55px;
     min-width: 160px;
     height: 50px;
     border: 1px solid #0f110e;
@@ -64,4 +66,72 @@
     align-items: center;
     padding: 5px;
     background: #ebeeef;
+  }
+
+  .login100-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 43px 88px 93px 190px;
+  }
+  
+
+  @media(max-width: 576px){
+    .container-login100 {
+        width: 100%;  
+        min-height: 80vh;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background: #ebeeef;
+      }
+
+    .login100-form-btn {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        min-width: 160px;
+        height: 50px;
+        border: 1px solid #0f110e;
+        background-color: #fff;
+        color: black !important;
+        border-radius: 10px;
+        font-family: Poppins-Regular;
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.2;
+      
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s;
+      }
+
+      .login100-form {
+        width: 100vw;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 43px 88px 93px 83px;
+      }
   }
