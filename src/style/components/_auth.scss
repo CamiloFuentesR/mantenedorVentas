@@ -91,17 +91,17 @@
   @media(max-width: 576px){
     .container-login100 {
         width: 100%;  
-        max-height: 100vh;
+        min-height: 98vh;
         display: -webkit-box;
         display: -webkit-flex;
         display: -moz-box;
         display: -ms-flexbox;
         display: flex;
-        margin-top: 10px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 10px;
+        margin-top: -40px;
         background: #ebeeef;
       }
 
