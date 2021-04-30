@@ -4,7 +4,7 @@ import edificio2 from './img/edificio2.jpg'
 import edificio3 from './img/edificio3.jpg'
 import edificio1_mobil from './img/edificio1_mobil.jpg'
 import edificio2_mobil from './img/edificio2_mobil.jpg'
-import edificio3_mobil from './img/edificio2_mobil.jpg'
+import edificio3_mobil from './img/edificio3_mobil.jpg'
 
 export const Header = () => {
     return (
@@ -17,7 +17,7 @@ export const Header = () => {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={edificio1_mobil} className="_header_img_mobil d-flex " alt="..." />
+                        <img src={edificio1_mobil} className="_header_img_mobil  " alt="..." />
                         <img src={edificio1} className="header_img d-flex _home_header_img" alt="..." />
 
                         <div className="carousel-caption ">
@@ -26,7 +26,7 @@ export const Header = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={edificio2_mobil} className="_header_img_mobil d-flex " alt="..." />
+                        <img src={edificio2_mobil} className="_header_img_mobil  " alt="..." />
                         <img src={edificio2} className="header_img d-flex _home_header_img" alt="..." />
 
                         <div className="carousel-caption ">
@@ -35,10 +35,10 @@ export const Header = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={edificio3_mobil} className="_header_img_mobil d-flex " alt="..." />
+                        <img src={edificio3_mobil} className="_header_img_mobil " alt="..." />
                         <img src={edificio3} className="header_img d-flex _home_header_img" alt="..." />
                         <div className="carousel-caption ">
-                            <h5 className="mb-5">Third slide label</h5>
+                            <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
                         </div>
                     </div>
