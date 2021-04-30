@@ -13,7 +13,7 @@ export const HomeContainer = () => {
             ?
             <>
                 <div className="_home_container_left_img">
-                    <img src={edificioNoche} alt="Edificio nocturno" className="_home_container_left_img animate__animated animate__fadeIn  " />
+                    <img src={edificioNoche} alt="Edificio nocturno" className="_home_container_left_img   " />
                 </div>
                 <div className="_Home_container_right_title">
                     <h3 className="_Home_container_right_title"> </h3>
