@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import useOnScreen from '../../hooks/useOnScreen';
 
 export const Footer = () => {
 
     const [setRef, visible] = useOnScreen({ threshold: .5 });
-    const [display, setDisplay] = useState(true);
 
     return (
         <>
