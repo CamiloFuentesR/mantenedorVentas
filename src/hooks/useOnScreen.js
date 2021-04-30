@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 
     useEffect(() => {
         const observer = new IntersectionObserver(([entry])=> {
+            console.log(entry)
             setVisible(entry.isIntersecting);
         },options);
 
