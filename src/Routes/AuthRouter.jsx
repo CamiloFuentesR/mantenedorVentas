@@ -8,7 +8,7 @@ export const AuthRouter = () => {
 
     return (
         <div className="auth__main">
-            <div className="auth__box-container animate__animated animate__fadeIn animate__faster">
+            <div className="auth__box-container ">
                 <Switch>
                     <Route
                         exact

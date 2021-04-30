@@ -6,7 +6,10 @@ export const HomeScreen = () => {
     return (
         <div>
             <NavBar />
-            <Header />
+            <div className="animate__animated animate__fadeIn animate__faster">
+                <Header />
+            </div>
+
         </div>
     )
 }

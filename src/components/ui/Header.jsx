@@ -6,11 +6,11 @@ import edificio3 from './img/edificio3.jpg'
 export const Header = () => {
     return (
         <div className=" container-sm _home_header col-12 ">
-            <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+            <div id="carouse" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators" data-duration="100">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" data-interval="100" className="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1" data-interval="100"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2" data-interval="100"></li>
+                    <li data-target="#carouse" data-slide-to="0" data-interval="100" className="active"></li>
+                    <li data-target="#carouse" data-slide-to="1" data-interval="100"></li>
+                    <li data-target="#carouse" data-slide-to="2" data-interval="100"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -35,11 +35,11 @@ export const Header = () => {
                         </div>
                     </div>
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <a className="carousel-control-prev" href="#carouse" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
                 </a>
-                <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <a className="carousel-control-next" href="#carouse" role="button" data-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
                 </a>
