@@ -1,8 +1,16 @@
 import React from 'react'
+import useOnScreen from '../../hooks/useOnScreen';
 
 export const Footer = () => {
+
+    const [setRef, visible] = useOnScreen({ threshold: 1 });
+
     return (
-        <footer className="_Footer">
+        <>
+        { visible
+        ?
+        
+        <footer className="_Footer animate__animated animate__fadeInDown">
             <div className="_footer_left">
 
             </div>
@@ -31,5 +39,10 @@ export const Footer = () => {
                 </svg></div>
             </div>
         </footer>
+        :
+        <div  ref={setRef}></div>
+        }
+
+        </>
     )
 }
