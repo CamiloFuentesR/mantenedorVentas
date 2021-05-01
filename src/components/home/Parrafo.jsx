@@ -3,7 +3,7 @@ import useOnScreen from '../../hooks/useOnScreen';
 
 export const Parrafo = () => {
 
-    const [setRef, visible] = useOnScreen({ threshold: 1 });
+    const [setRef, visible] = useOnScreen({ threshold: .84 });
 
     return (
         <>
