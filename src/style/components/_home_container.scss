@@ -1,12 +1,13 @@
 @media (max-width: 576px){
     ._home_container{
         display: grid;
-        grid-template-rows: .13fr .1fr .8fr 1.3fr !important  ;
+        grid-template-rows: .15fr .12fr 1fr 1.6fr !important  ;
         background-color: black;
         min-width: 100vw;
         height: 1000px !important;
     }
     ._home_title_h1{
+        margin-top: 30px;
         grid-row: 1 !important;
         justify-self: center;
         align-self: center;
