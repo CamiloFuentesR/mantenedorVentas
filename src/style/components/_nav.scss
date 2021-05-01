@@ -4,8 +4,10 @@
             display: grid !important;
             grid-template-columns: 1fr 2fr 2fr 2fr 1fr !important;
             justify-items: center;
+            position: sticky !important;
         }
         .btn-login{
+            margin-top: 10px;
             grid-column: 5;
         }
     
@@ -26,6 +28,7 @@
             
         }
         ._auth_house_btn{
+            margin-top: 10px;
             grid-column: 1;
         }
     

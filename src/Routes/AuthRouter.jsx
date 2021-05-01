@@ -7,7 +7,7 @@ import { HomeScreen } from '../components/home/HomeScreen'
 export const AuthRouter = () => {
 
     return (
-        <div className="auth__main" style={{overflow: "hidden"}}>
+        <div className="auth__main" >
             <div className="auth__box-container ">
                 <Switch>
                     <Route

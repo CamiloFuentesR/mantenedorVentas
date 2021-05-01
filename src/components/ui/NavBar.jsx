@@ -8,19 +8,7 @@ export const NavBar = () => {
 
     return (
         <>
-
-
-            {/*  <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown button
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <Link to={'/auth/login'} className="dropdown-item">Login</Link>
-                    <Link to={'/auth/register'} className="dropdown-item">Register</Link>
-                </div>
-            </div> */}
-
-            <nav className="_home_nav bg-dark sticky-top">
+            <nav className="_home_nav nav nav-bar bg-dark sticky-top">
                 <div className="_auth_house_btn btn btn-sm">   
                     <Link to={"auth/home"}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="_nav_btn-home  icon icon-tabler icon-tabler-smart-home" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#fcf9fa" fill="none" strokeLinecap="round" strokeLinejoin="round">
