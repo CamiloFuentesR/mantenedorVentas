@@ -8,7 +8,7 @@ export const HomeScreen = () => {
     return (
         <div>
             <NavBar />
-            <div className="animate__animated animate__fadeIn animate__faster">
+            <div className="">
                 <Header />
                 <HomeContainer/>
                 <Footer/>
