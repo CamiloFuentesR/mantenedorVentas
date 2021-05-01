@@ -1,8 +1,8 @@
 import React from 'react'
+import { Footer } from '../ui/Footer'
+import { Header } from '../ui/Header'
+import { NavBar } from '../ui/NavBar'
 import { HomeContainer } from './HomeContainer'
-import { Footer } from './ui/Footer'
-import { Header } from './ui/Header'
-import { NavBar } from './ui/NavBar'
 
 export const HomeScreen = () => {
     return (

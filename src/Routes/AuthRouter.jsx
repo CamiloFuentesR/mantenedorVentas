@@ -2,7 +2,7 @@ import React from 'react'
 import { Redirect, Route, Switch } from 'react-router-dom'
 import { LoginScreen } from '../components/auth/LoginScreen'
 import { RegisterScreen } from '../components/auth/RegisterScreen'
-import { HomeScreen } from '../components/HomeScreen'
+import { HomeScreen } from '../components/home/HomeScreen'
 
 export const AuthRouter = () => {
 
