@@ -28,7 +28,7 @@
         border-radius: 10px;
         img{
             animation-name: example;
-            animation-duration: 3.2s;
+            animation-duration: 4.2s;
         }
         @keyframes example {
             0%   {opacity: .1;}
@@ -47,7 +47,7 @@
         opacity: 0;
         animation-name: parrafo;
         animation-duration: 3s;
-        animation-delay: 1.5s ;
+        // animation-delay: .2s ;
         animation-fill-mode: forwards;
         padding: 5px;
         margin-left: 10px;
@@ -63,8 +63,8 @@
         align-self:center;
         justify-self: center;
         opacity: 0;
-        animation-duration: 4s;
-        animation-delay: .5s ;
+        animation-duration: 3s;
+        animation-delay: .1s ;
         animation-name: sub;
         animation-fill-mode: forwards;
     
