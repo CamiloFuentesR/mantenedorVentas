@@ -28,13 +28,13 @@
         border-radius: 10px;
         img{
             animation-name: example;
-            animation-duration: 4.2s;
+            animation-duration: 5s;
+            @keyframes example {
+                0%   {opacity: .1;}
+                // 65%   {-webkit-mask:linear-gradient(.1);opacity: .3; }
+                100% {height: 320px; width: 213px; opacity: 1; }
+              }
         }
-        @keyframes example {
-            0%   {opacity: .1;}
-            65%   {-webkit-mask:linear-gradient(.1);opacity: .6; }
-            100% {height: 320px; width: 213px; opacity: 1; }
-          }
     }
     ._Home_container_right{
         display: grid;
