@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 const useOnScreen = (options) => {
     const [ref, setRef] = useState(null);
     const [visible, setVisible] = useState(false);
-    console.log(visible)
     useEffect(() => {
+        console.log(visible)
         const observer = new IntersectionObserver(([entry]) => {
             setVisible(entry.isIntersecting);
         }, options);

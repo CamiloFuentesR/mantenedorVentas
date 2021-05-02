@@ -7,7 +7,6 @@ export const PublicRouter = ({
     ...rest
 }) => {
 
-    console.log(isAuthenticated);
     return (
         <Route {...rest}
             component={(props) => (

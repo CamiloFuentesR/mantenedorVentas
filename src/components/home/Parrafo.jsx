@@ -3,14 +3,13 @@ import useOnScreen from '../../hooks/useOnScreen';
 
 export const Parrafo = () => {
 
-    const [setRef] = useOnScreen({ threshold: 1 });
-    const [value, setvalue] = useState(false)
+    const [setRef, visible] = useOnScreen({ threshold: .4 });
+    const [value, setValue] = useState(false)
     useEffect(() => {
-
-        setRef &&
-        setvalue(true)
-    }, [setRef])
-
+        visible&&
+        setValue(true)
+    }, [visible])
+    console.log(visible);
     return (
         <>
             {
