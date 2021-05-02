@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useHistory } from 'react-router';
 import useOnScreen from '../../hooks/useOnScreen';
 import edificioNoche from '../ui/img/edificioNoche.jpg'
 import { Parrafo } from './Parrafo';
@@ -7,6 +8,7 @@ export const HomeContainer = () => {
 
     const [setRef,visible] = useOnScreen({ threshold: 1 });
     const [value, setvalue] = useState(false)
+    const history = useHistory()
     useEffect(() => {
         visible &&
         setvalue(true)

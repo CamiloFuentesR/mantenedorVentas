@@ -5,7 +5,9 @@ import { NavBar } from '../ui/NavBar'
 import { HomeContainer } from './HomeContainer'
 
 export const HomeScreen = () => {
+   
     return (
+
         <div>
             <NavBar />
             <div className="">

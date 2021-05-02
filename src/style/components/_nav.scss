@@ -27,8 +27,25 @@
             margin-bottom: -10px;
         }
         ._auth_house_btn{
+           
+            display: grid;
+            grid-template-rows: 2fr .2fr;
+        }
+        ._auth_house_btn{
             margin-top: 10px;
             grid-column: 1;
+        }
+        ._home_btn_span{
+            grid-row: 2  !important;
+            font-size: 10px;
+            margin-top: -12px;
+            color: aliceblue;
+        }
+       ._nav_btn-home{
+            max-height: 30px;
+            grid-row: 1;
+            margin-bottom: 10px;
+           
         }
     
         /* ---------------------dropdown button -------------------- */
@@ -48,24 +65,58 @@
     }
 
     @media (min-width: 1100px) {
-        ._nav_btn-home{
-            margin-bottom: 10px;
-           
-        }
         ._home_nav{
+            max-height: 50px;
             display: grid !important;
             grid-template-columns: 1fr 2fr 2fr 2fr 1fr !important;
             justify-items: center;
         }
+        ._nav_btn-home{
+            max-height: 30px;
+            grid-row: 1;
+            margin-bottom: 10px;
+            margin-right: 24px;
+           
+        }
+        ._auth_house_btn{
+            max-height: 50px;
+            display: grid;
+            grid-template-rows: 2fr .2fr;
+            grid-column: 1;
+            width: 109px;
+
+            &:hover{
+                background-color: lighten($color:#343A40,$amount:5 );
+                border-radius: 10px;
+            }
+        }
+        ._home_btn_span{
+            grid-row: 2  !important;
+            font-size: 10px;
+            margin-top: -12px;
+            color: aliceblue;
+        }
+       
         .btn-login{
+            margin-left: 45px;
+            width: 100px;
+            max-height: 50px;
             grid-column: 5;
+            width: 109px;
+
             border-radius: 10px;
             padding: 1px;
             &:hover{
                 background-color: lighten($color:#343A40,$amount:5 );
             }
         }
-    
+        .dropdown-toggle{
+            font-size: 20px;
+        }
+        .icon-tabler{
+            margin-left: 25px;
+            margin-bottom: 12px;
+        }
         .dropdown-menu {
             background-color: rgba(44, 44, 40, 0.836);
             margin-right: 75px;
@@ -83,14 +134,6 @@
         .dropdown-item::focus{
             color: rgba(255, 255, 255, 0.938);
         }
-        ._auth_house_btn{
-            grid-column: 1;
-            width: 109px;
-
-            &:hover{
-                background-color: lighten($color:#343A40,$amount:5 );
-                border-radius: 10px;
-            }
-        }
+       
         
       }

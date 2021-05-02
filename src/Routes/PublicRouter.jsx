@@ -13,7 +13,7 @@ export const PublicRouter = ({
 
                 (!isAuthenticated)
                     ? (<Component {...props} />)
-                    : (<Redirect to="/adentro" />)
+                    : (<Redirect to="/user/adentro" />)
             )}
         />
     )
