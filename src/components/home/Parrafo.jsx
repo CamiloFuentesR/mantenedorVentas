@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import useOnScreen from '../../hooks/useOnScreen';
 
 export const Parrafo = () => {
 
-    const [setRef, visible] = useOnScreen({ threshold: .4 });
+    const [setRef] = useOnScreen({ threshold: 1 });
+    const [value, setvalue] = useState(false)
+    useEffect(() => {
+
+        setRef &&
+        setvalue(true)
+    }, [setRef])
 
     return (
         <>
             {
-                visible
+                value
                     ?
                         <div className="_Home_container_right">
                             <h3 className="_Home_container_right_sub">

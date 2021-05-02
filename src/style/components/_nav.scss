@@ -1,10 +1,10 @@
 @media (max-width: 576px) {
 
         ._home_nav{
-            display: grid !important;
-            grid-template-columns: 1fr 2fr 2fr 2fr 1fr !important;
+            display: grid ;
+            grid-template-columns: 1fr 2fr 2fr 2fr 1fr ;
             justify-items: center;
-            position: sticky !important;
+            position: sticky ;
         }
         .btn-login{
             margin-top: 10px;
