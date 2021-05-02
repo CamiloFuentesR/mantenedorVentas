@@ -11,11 +11,13 @@
         grid-row: 1 !important;
         justify-self: center;
         align-self: center;
+        color: aliceblue;
     }
     ._home_title_h3{
        grid-row: 2 !important;
         justify-self: center;
         align-self: flex-end;
+        color: aliceblue;
     }
     
     ._home_container_left_img{
@@ -44,6 +46,7 @@
     }
     ._Home_container_right {
         p{
+        color: aliceblue;
         opacity: 0;
         animation-name: parrafo;
         animation-duration: 2s;
@@ -77,7 +80,8 @@
         h3{
         align-self:center;
         justify-self: center;
-        color: rgb(154, 163, 163);
+        color: aliceblue;
+        
         }
     }
 
