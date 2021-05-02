@@ -2,7 +2,7 @@
     ._home_container{
         display: grid;
         grid-template-rows: .15fr .12fr 1fr 1.6fr !important  ;
-        background-color: black;
+        background-color: lighten($color:black, $amount: 4);
         min-width: 100vw;
         height: 1000px !important;
     }
@@ -11,13 +11,13 @@
         grid-row: 1 !important;
         justify-self: center;
         align-self: center;
-        color: aliceblue;
+        color: darken($color: white,$amount: 0);
     }
     ._home_title_h3{
        grid-row: 2 !important;
         justify-self: center;
         align-self: flex-end;
-        color: aliceblue;
+        color: darken($color: white,$amount: 20);
     }
     
     ._home_container_left_img{
@@ -29,6 +29,7 @@
         background-color: rgb(0, 0, 0);
         border-radius: 10px;
         img{
+            box-shadow: 0px 0px 5px 0px white;
             animation-name: example;
             animation-duration: 7s;
             @keyframes example {
@@ -46,7 +47,7 @@
     }
     ._Home_container_right {
         p{
-        color: aliceblue;
+        color: darken($color: white,$amount: 20);
         opacity: 0;
         animation-name: parrafo;
         animation-duration: 2s;
