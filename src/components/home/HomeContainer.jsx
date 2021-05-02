@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import useOnScreen from '../../hooks/useOnScreen';
 import edificioNoche from '../ui/img/edificioNoche.jpg'
 import { Parrafo } from './Parrafo';
@@ -6,16 +6,11 @@ import { Parrafo } from './Parrafo';
 export const HomeContainer = () => {
 
     const [setRef,visible] = useOnScreen({ threshold: 1 });
-    const [value, setvalue] = useState(false)
-    useEffect(() => {
-        visible &&
-        setvalue(true)
-    }, [visible])
 
     return (
         <>
             <div className="_home_container  ">
-                {value
+                {visible
                     ?
                     <>
                         <h1 className="_home_title_h1">Titulo General</h1>

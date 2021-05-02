@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import useOnScreen from '../../hooks/useOnScreen';
 
 export const Footer = () => {
 
     const [setRef, visible] = useOnScreen({ threshold: .5 });
-    const [value, setValue] = useState(false)
-    useEffect(() => {
-        visible&&
-        setValue(true)
-    }, [visible])
+
     return (
         <>
             <footer className="_Footer ">
@@ -17,7 +13,7 @@ export const Footer = () => {
                 <div className="_footer_right">
                 </div >
                 <div className="_footer_down ">
-                    {value
+                    {visible
                         ?
                         <>
                             <div className="_footer_down_left">
