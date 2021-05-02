@@ -9,7 +9,6 @@ export const Parrafo = () => {
         visible&&
         setValue(true)
     }, [visible])
-    console.log(visible);
     return (
         <>
             {

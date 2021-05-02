@@ -5,13 +5,12 @@ import { Parrafo } from './Parrafo';
 
 export const HomeContainer = () => {
 
-    const [setRef] = useOnScreen({ threshold: 1 });
+    const [setRef,visible] = useOnScreen({ threshold: 1 });
     const [value, setvalue] = useState(false)
     useEffect(() => {
-
-        setRef &&
+        visible &&
         setvalue(true)
-    }, [setRef])
+    }, [visible])
 
     return (
         <>
