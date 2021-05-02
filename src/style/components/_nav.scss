@@ -24,10 +24,8 @@
         }
         ._home_login_btn{
             font-size: 30px !important;
-            margin-bottom: -10px;
         }
         ._auth_house_btn{
-           
             display: grid;
             grid-template-rows: 2fr .2fr;
         }
@@ -44,8 +42,7 @@
        ._nav_btn-home{
             max-height: 30px;
             grid-row: 1;
-            margin-bottom: 10px;
-           
+            margin-top: -5px;           
         }
     
         /* ---------------------dropdown button -------------------- */
