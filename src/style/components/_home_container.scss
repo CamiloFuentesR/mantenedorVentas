@@ -1,7 +1,7 @@
 @media (max-width: 576px){
     ._home_container{
         display: grid;
-        grid-template-rows: .15fr .12fr 1fr 1.6fr !important  ;
+        grid-template-rows: .4fr .2fr 1.2fr 1.6fr !important  ;
         background-color: lighten($color:black, $amount: 4);
         min-width: 100vw;
         height: 1100px !important;
