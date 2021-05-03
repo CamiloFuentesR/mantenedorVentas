@@ -2,26 +2,31 @@ import { types } from "../type/type";
 
 
 const initialState = {
-    isLogged: null,
+    checking: false,
 
 }
 
-export const authReducer = (state= initialState,action) => {
-
+export const authReducer = (state = initialState, action) => {
 
     switch (action.type) {
-        case types.login :
-            return{
+
+        case types.logIn:
+            return {
                 ...state,
-                isLogged: action.payload
+                ...action.payload,
+                isLogged: true
             }
-        case types.logout:
-            return{
+        case types.logOut:
+            return {
+                checking: action.payload
+            }
+        case types.authCheckingFinish:
+            return {
                 ...state,
-                isLogged:action.payload
+                checking: false
             }
-            
-    
+
+
         default:
             return state;
     }

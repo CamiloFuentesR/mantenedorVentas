@@ -1,11 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavBar } from '../ui/NavBar'
 import login from '../ui/img/login.jpg';
+import { useDispatch } from 'react-redux';
+import { startLogin } from '../../redux/actions/authActions';
 export const LoginScreen = () => {
 
+    
+    const initForm = {
+        user_email:'kmi@gmail.com',
+        user_password:'123456'
+    }
+    
+    const [form, setForm] = useState(initForm)
+    const {user_email,user_password} =form
+    const dispatch = useDispatch()
+
+    const handleInputChange = ({target}) => {
+        setForm({
+            ...form,
+            [target.name] : target.value
+        });
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        dispatch(startLogin(form))
     }
 
     return (
@@ -23,12 +42,27 @@ export const LoginScreen = () => {
                             <form className="login100-form validate-form">
                                 <div className="wrap-input100 validate-input m-b-26" data-validate="Username is required">
                                     <span className="label-input100">Username</span>
-                                    <input className="input100" type="text" name="username" placeholder="Enter username" />
+                                    <input 
+                                        className="input100" 
+                                        type="text" 
+                                        name="user_email" 
+                                        placeholder="Enter username" 
+                                        value={user_email}
+                                        onChange={handleInputChange}
+                                        />
                                     <span className="focus-input100"></span>
                                 </div>
                                 <div className="wrap-input100 validate-input m-b-18" data-validate="Password is required">
                                     <span className="label-input100">Password</span>
-                                    <input className="input100" type="password" name="pass" autoComplete="false" placeholder="Enter password" />
+                                    <input 
+                                        className="input100" 
+                                        type="password" 
+                                        name="user_password" 
+                                        autoComplete="false" 
+                                        placeholder="Enter password" 
+                                        value={user_password}
+                                        onChange={handleInputChange}
+                                        />
                                     <span className="focus-input100"></span>
                                 </div>
                                 <div className="flex-sb-m w-full p-b-30">

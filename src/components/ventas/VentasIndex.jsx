@@ -1,9 +1,12 @@
 import React from 'react'
+import { NavBar } from '../ui/NavBar'
 
 export const VentasIndex = () => {
+    
+
     return (
         <div>
-            <h1>Ventas</h1>
+            <NavBar/>
         </div>
     )
 }
