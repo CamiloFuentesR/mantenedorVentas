@@ -12,7 +12,7 @@ export const clienteAxiosToken = axios.create({
     headers: {
         'Content-type': 'application/json',
         'x-token': token(),
-        'Access-Control-Allow-Headers': 'https://best-sale.netlify.app'
+        'Access-Control-Allow-Headers': true
     }
 });
 export default clienteAxios;
