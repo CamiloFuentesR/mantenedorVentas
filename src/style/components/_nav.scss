@@ -7,14 +7,7 @@
             position: sticky ;
             min-height: 50px;
             max-height: 50px;
-            width: 90%;
-            align-items: center;
-            align-content: center;
-            justify-content: center;
-            justify-self: center;
-            align-self: center;
-            margin-left: 5%;
-
+            min-width: 100%;
         }
         .btn-login{
             margin-top: 10px;
