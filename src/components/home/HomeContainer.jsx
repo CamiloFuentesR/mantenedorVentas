@@ -9,7 +9,7 @@ export const HomeContainer = () => {
 
     return (
         <>
-            <div className="_home_container  ">
+            <div className="_home_container">
                 {visible
                     ?
                     <>
