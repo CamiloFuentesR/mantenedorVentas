@@ -34,6 +34,7 @@
         background-color: rgb(0, 0, 0);
         border-radius: 10px;
         img{
+            margin-bottom: 60px;
             box-shadow: 0px 0px 5px 0px white;
             animation-name: example;
             animation-duration: 7s;
@@ -46,13 +47,13 @@
     }
    
     ._Home_container_right {
-        margin-top: 100px;
+        margin-top: 50px;
         p{
         margin-top: 30px;
         color: darken($color: white,$amount: 20);
         opacity: 0;
         animation-name: parrafo;
-        animation-duration: 2s;
+        animation-duration: 5s;
         // animation-delay: .2s ;
         animation-fill-mode: forwards;
         padding: 5px;
