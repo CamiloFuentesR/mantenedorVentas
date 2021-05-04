@@ -8,7 +8,6 @@
     }
 
     ._home_title_h1{
-
         color: darken($color: white,$amount: 0);
         animation-name: title;
         animation-duration: 3s;
@@ -34,7 +33,7 @@
         background-color: rgb(0, 0, 0);
         border-radius: 10px;
         img{
-            margin-bottom: 60px;
+            margin-bottom: 110px;
             box-shadow: 0px 0px 5px 0px white;
             animation-name: example;
             animation-duration: 7s;
@@ -67,7 +66,7 @@
     }
     ._Home_container_right_sub{
         opacity: 0;
-        animation-duration: 3s;
+        animation-duration: 5s;
         animation-delay: .1s ;
         animation-name: sub;
         animation-fill-mode: forwards;
