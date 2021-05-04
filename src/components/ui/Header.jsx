@@ -7,7 +7,7 @@ import edificio2_mobil from './img/edificio2_mobil.jpg'
 import edificio3_mobil from './img/edificio3_mobil.jpg'
 
 export const Header = () => {
-    
+
     return (
         <div className="_home_header">
             <div id="carouse" className="carousel slide animate__animated animate__fadeIn animate__faster" data-ride="carousel">

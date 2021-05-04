@@ -5,7 +5,7 @@ import { Parrafo } from './Parrafo';
 
 export const HomeContainer = () => {
 
-    const [setRef,visible] = useOnScreen({ threshold: 1 });
+    const [setRef, visible] = useOnScreen({ threshold: 1 });
 
     return (
         <>
@@ -15,7 +15,6 @@ export const HomeContainer = () => {
                     <>
                         <h1 className="_home_title_h1">Titulo General</h1>
                         <h3 className="_home_title_h3">Vistas Nocturnas</h3>
-
                         <div className="_home_container_left_img">
                             <img src={edificioNoche} alt="Edificio nocturno" className="_home_container_left_img   " />
                         </div>
@@ -23,7 +22,7 @@ export const HomeContainer = () => {
                     :
                     <div ref={setRef} className=""></div>
                 }
-               <Parrafo/>
+                <Parrafo />
             </div>
         </>
     )
