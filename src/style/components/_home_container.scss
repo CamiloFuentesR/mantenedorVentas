@@ -76,6 +76,7 @@
         animation-delay: .1s ;
         animation-name: sub;
         animation-fill-mode: forwards;
+        align-self: flex-end;
         @keyframes sub {
             0% {opacity: 0;}
             100% {opacity: 1;}
