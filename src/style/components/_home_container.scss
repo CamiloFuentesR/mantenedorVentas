@@ -12,12 +12,24 @@
         justify-self: center;
         align-self: center;
         color: darken($color: white,$amount: 0);
+        animation-name: title;
+        animation-duration: 3s;
+        @keyframes title {
+            0%{opacity: .1;}
+            100%{opacity: 1;}
+        }
     }
     ._home_title_h3{
        grid-row: 2 !important;
         justify-self: center;
         align-self: flex-end;
         color: darken($color: white,$amount: 20);
+        animation-name: subTitle;
+        animation-duration: 5s;
+        @keyframes subTitle {
+            0%{opacity: .1;}
+            100%{opacity: 1;}
+        }
     }
     
     ._home_container_left_img{
