@@ -6,14 +6,14 @@
     ._home_header{
         display: flex;
         width: 100% ;
-        // height: 100% ;
+        height: 100% ;
         justify-content: center;
         background-color: darken($color:black, $amount: 90);
         overflow: hidden;
     }
     
     ._header_img_mobil{
-        max-width: 100% ;
+        min-width: 99vw !important;
         min-height: 100%  ;
         opacity: .8;
     }
@@ -48,17 +48,18 @@
         max-width: 0px;
         max-height: 0px;
     }
-
+    
     ._home_header{
         display: flex;
         width: 100% ;
         height: 100% ;
-        justify-content: center;
         background-color: darken($color:black, $amount: 90);
+        overflow: hidden;
     }
     
+
     ._home_header_img{
-        width:100%  ;
+        width:100vw  ;
         height: 100%;
         opacity: .8;
     }

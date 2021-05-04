@@ -6,12 +6,13 @@
         text-align: center;
         align-items: center;
     }
+
     ._home_title_h1{
-        margin-top: 20px;
+
         color: darken($color: white,$amount: 0);
         animation-name: title;
         animation-duration: 3s;
-        margin-top: 30px;
+        margin-top: 100px;
             @keyframes title {
                 0%{opacity: .1;}
                 100%{opacity: 1;}
@@ -29,7 +30,7 @@
     }
     
     ._home_container_left_img{
-        margin-top: 30px;
+        margin-top: 20px;
         background-color: rgb(0, 0, 0);
         border-radius: 10px;
         img{
@@ -45,7 +46,7 @@
     }
    
     ._Home_container_right {
-        margin-top: 30px;
+        margin-top: 100px;
         p{
         margin-top: 30px;
         color: darken($color: white,$amount: 20);
