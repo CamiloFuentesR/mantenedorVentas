@@ -3,10 +3,10 @@ import useOnScreen from '../../hooks/useOnScreen';
 
 export const Parrafo = () => {
 
-    const [setRef, visible] = useOnScreen({ threshold: .4 });
+    const [setRef, visible] = useOnScreen({ ref: .4 });
 
     return (
-        <>
+        <div>
             {
                 visible
                     ?
@@ -19,6 +19,6 @@ export const Parrafo = () => {
                     :
                     <div ref={setRef} className=""></div>
             }
-        </>
+        </div>
     )
 }
