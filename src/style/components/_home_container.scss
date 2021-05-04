@@ -13,7 +13,7 @@
         color: darken($color: white,$amount: 0);
         animation-name: title;
         animation-duration: 3s;
-        margin-top: 200px;
+        margin-top: 100px;
             @keyframes title {
                 0%{opacity: .1;}
                 100%{opacity: 1;}
