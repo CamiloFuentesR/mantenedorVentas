@@ -50,6 +50,8 @@
     }
    
     ._Home_container_right {
+        display: grid;
+        grid-template-rows: 1fr 2fr;
         margin-top: 50px;
         p{
         margin-top: 30px;
