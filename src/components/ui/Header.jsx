@@ -19,7 +19,7 @@ export const Header = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={edificio1_mobil} className="_header_img_mobil  " alt="..." />
-                        <img src={edificio1} className="header_img d-flex _home_header_img" alt="..." />
+                        <img src={edificio1} className="_home_header_img" alt="..." />
 
                         <div className="carousel-caption ">
                             <h5>First slide label</h5>
@@ -28,7 +28,7 @@ export const Header = () => {
                     </div>
                     <div className="carousel-item">
                         <img src={edificio2_mobil} className="_header_img_mobil  " alt="..." />
-                        <img src={edificio2} className="header_img d-flex _home_header_img" alt="..." />
+                        <img src={edificio2} className="_home_header_img" alt="..." />
 
                         <div className="carousel-caption ">
                             <h5>Second slide label</h5>
@@ -37,7 +37,7 @@ export const Header = () => {
                     </div>
                     <div className="carousel-item">
                         <img src={edificio3_mobil} className="_header_img_mobil " alt="..." />
-                        <img src={edificio3} className="header_img d-flex _home_header_img" alt="..." />
+                        <img src={edificio3} className=" _home_header_img" alt="..." />
                         <div className="carousel-caption ">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
