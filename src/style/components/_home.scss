@@ -1,28 +1,5 @@
 
 
-
-@media (max-width: 576px) {
-
-    ._home_header{
-        display: flex;
-        height: 320px ;
-        width: 560px ;
-        justify-content: center;
-        background-color: darken($color:black, $amount: 90);
-    }
-    
-
- }
- @media (min-width: 576px) { 
-    ._home_header{
-        display: flex;
-        height: 320px ;
-        width: 560px ;
-        justify-content: center;
-        background-color: darken($color:black, $amount: 90);
-    }
-  }
-
  // Medium devices (tablets, 768px and up)
  @media (min-width: 768px) {
     .btn-login{
@@ -97,24 +74,6 @@
 
     }
 
-    ._home_header{
-        display: flex;
-        height: 88vh !important;
-        width: 100vw !important;
-        justify-content: center;
-        background-color: darken($color:black, $amount: 90);
-        overflow: hidden;
-        
-        // background-color: darken($color: grey, $amount: 40);
-        img{
-            display: flex;
-            width:106vw !important ;
-            height: 88vh !important;
-            margin-right: -5vw;
-            margin-left: -1vw;
-            opacity: .2;
-        }
-    }
     
     .btn{
         font-size: 2em;

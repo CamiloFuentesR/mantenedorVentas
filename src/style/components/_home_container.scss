@@ -1,28 +1,24 @@
 @media (max-width: 576px){
+
     ._home_container{
-        display: grid;
-        grid-template-rows: .4fr .2fr 1.2fr 1.6fr !important  ;
-        background-color: lighten($color:black, $amount: 4);
-        min-width: 100vw;
-        height: 1100px !important;
-    }   
+        display: flex ;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
     ._home_title_h1{
-        margin-top: 30px;
-        grid-row: 1 !important;
-        justify-self: center;
-        align-self: center;
+        margin-top: 20px;
         color: darken($color: white,$amount: 0);
         animation-name: title;
         animation-duration: 3s;
-        @keyframes title {
-            0%{opacity: .1;}
-            100%{opacity: 1;}
-        }
+        margin-top: 30px;
+            @keyframes title {
+                0%{opacity: .1;}
+                100%{opacity: 1;}
+            }
     }
     ._home_title_h3{
-       grid-row: 2 !important;
-        justify-self: center;
-        align-self: flex-end;
+        margin-top: 30px;
         color: darken($color: white,$amount: 20);
         animation-name: subTitle;
         animation-duration: 5s;
@@ -33,11 +29,7 @@
     }
     
     ._home_container_left_img{
-        grid-column: 1;
-        grid-row: 3 !important;
-        align-self: center;
-        justify-self: center;
-        margin-left: 0px;
+        margin-top: 30px;
         background-color: rgb(0, 0, 0);
         border-radius: 10px;
         img{
@@ -51,14 +43,11 @@
               }
         }
     }
-    ._Home_container_right{
-        display: grid;
-        grid-template-rows: .2fr .8fr;
-        grid-row: 4 !important;
-       
-    }
+   
     ._Home_container_right {
+        margin-top: 30px;
         p{
+        margin-top: 30px;
         color: darken($color: white,$amount: 20);
         opacity: 0;
         animation-name: parrafo;
@@ -68,7 +57,6 @@
         padding: 5px;
         margin-left: 10px;
         margin-right: 10px;
-        text-align: center;
         @keyframes parrafo {
             0% {opacity: 0;}
             100% {opacity: 1;}
@@ -76,14 +64,11 @@
         }
     }
     ._Home_container_right_sub{
-        align-self:center;
-        justify-self: center;
         opacity: 0;
         animation-duration: 3s;
         animation-delay: .1s ;
         animation-name: sub;
         animation-fill-mode: forwards;
-    
         @keyframes sub {
             0% {opacity: 0;}
             100% {opacity: 1;}
@@ -91,8 +76,6 @@
     }
     ._Home_container_right{
         h3{
-        align-self:center;
-        justify-self: center;
         color: aliceblue;
         
         }
@@ -100,7 +83,11 @@
 
 }
 @media (min-width: 577px) {
-
+     ._home_container{
+        display: flex ;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -143,8 +130,6 @@
           }
     }
 
- 
-
     ._Home_container_right{
         grid-column: 2;
         grid-row: 3;
@@ -166,10 +151,9 @@
         animation-delay: .5s ;
         animation-name: sub;
         animation-fill-mode: forwards;
-        
-            @keyframes sub {
-                0% {opacity: 0;}
-                100% {opacity: 1;}
+        @keyframes sub {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
         }
     }
     ._Home_container_right {
@@ -181,16 +165,13 @@
         animation-delay: 1.5s ;
         animation-fill-mode: forwards;
         margin-right: 30px;
-            @keyframes parrafo {
-                0% {opacity: 0;}
-                100% {opacity: 1;}
+        @keyframes parrafo {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+            }
         }
     }
 }
-
-}
-
-
 
  @media (min-width: 1100px){
     ._home_container{
@@ -232,8 +213,6 @@
           }
     }
 
- 
-
     ._Home_container_right{
         grid-column: 2;
         grid-row: 3;
@@ -273,9 +252,9 @@
             @keyframes parrafo {
                 0% {opacity: 0;}
                 100% {opacity: 1;}
+            }
         }
     }
-}
 
- }
+}
 

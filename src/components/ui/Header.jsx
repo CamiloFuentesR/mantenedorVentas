@@ -9,7 +9,7 @@ import edificio3_mobil from './img/edificio3_mobil.jpg'
 export const Header = () => {
     
     return (
-        <div className=" container-sm _home_header col-12 ">
+        <div className="_home_header">
             <div id="carouse" className="carousel slide animate__animated animate__fadeIn animate__faster" data-ride="carousel">
                 <ol className="carousel-indicators" data-duration="100">
                     <li data-target="#carouse" data-slide-to="0" data-interval="100" className="active"></li>
