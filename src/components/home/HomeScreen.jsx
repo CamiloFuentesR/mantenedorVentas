@@ -8,7 +8,7 @@ export const HomeScreen = () => {
    
     return (
 
-        <div>
+        <div style={{backgroundColor: 'black'}}>
             <NavBar />
             <div className="">
                 <Header />
